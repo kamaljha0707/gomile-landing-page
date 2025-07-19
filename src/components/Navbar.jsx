@@ -8,7 +8,7 @@ function Navbar() {
     return (
         <motion.div
             id="navbar"
-            className='w-full flex justify-between px-20 py-6 items-center text-[#f8f8ff] font-["Neue_Montreal"] fixed top-0 z-50 bg-[#18181b]/90 backdrop-blur-md'
+            className='w-full flex justify-between px-20 py-6 items-center text-[#f8f8ff] fixed top-0 z-50 bg-[#18181b]/90 backdrop-blur-md'
             initial={{ y: -100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}

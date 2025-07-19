@@ -29,12 +29,12 @@ function Services() {
       <div data-scroll
       data-scroll-speed='-.1' className='w-full py-10 bg-[#f8f8ff]'>
         <div className='w-full px-20 border-b-[1px] pb-10 border-[#7389f4]/30'>
-          <h1 className='text-[#2a2b3d] text-6xl font-["Neue_Montreal"]'>Services</h1>
+          <h1 className='text-[#2a2b3d] text-6xl '>Services</h1>
         </div>
         <div className='mx-20 mb-20'>
           <div className="cards w-full flex gap-5 mt-20">
             <motion.div onHoverStart={() => handleHover(0)} onHoverEnd={() => handleHoverEnd(0)} className="card-container relative w-1/2 h-[70vh] mb-10 cursor-pointer">
-              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3 font-["Neue_Montreal"] text-[#2a2b3d]'>
+              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3  text-[#2a2b3d]'>
                 <span className='block w-2.5 h-2.5 bg-[#7389f4] rounded-full'></span>
                 Local Ride Booking
               </p>
@@ -74,8 +74,8 @@ function Services() {
                 />
                 <div className="absolute inset-0 bg-[#18181b]/40 z-10 group-hover:bg-[#18181b]/30 transition-all duration-700"></div>
               </motion.div>
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Quick Rides</button>
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase mx-4 cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>City Travel</button>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Quick Rides</button>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase mx-4 cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>City Travel</button>
             </motion.div>
 
             <motion.div
@@ -83,7 +83,7 @@ function Services() {
               onHoverEnd={() => handleHoverEnd(1)}
               className="card-container relative w-1/2 h-[70vh] mb-10 cursor-pointer"
             >
-              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3 font-["Neue_Montreal"] text-[#2a2b3d]'>
+              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3  text-[#2a2b3d]'>
                 <span className='block w-2.5 h-2.5 bg-[#7389f4] rounded-full'></span>
                 Airport Transfers
               </p>
@@ -127,7 +127,7 @@ function Services() {
                 <div className="absolute inset-0 bg-[#18181b]/40 z-10 group-hover:bg-[#18181b]/30 transition-all duration-700"></div>
               </motion.div>
 
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>
                 Airport Cab
               </button>
             </motion.div>
@@ -137,7 +137,7 @@ function Services() {
         <div className='mx-20 mb-20'>
           <div className="cards w-full flex gap-5 mt-20">
             <motion.div onHoverStart={() => handleHover(2)} onHoverEnd={() => handleHoverEnd(2)} className="card-container relative w-1/2 h-[70vh] mb-10 cursor-pointer">
-              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3 font-["Neue_Montreal"] text-[#2a2b3d]'>
+              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3  text-[#2a2b3d]'>
                 <span className='block w-2.5 h-2.5 bg-[#7389f4] rounded-full'></span>
                 Outstation Travel
               </p>
@@ -177,8 +177,8 @@ function Services() {
                 />
                 <div className="absolute inset-0 bg-[#18181b]/40 z-10 group-hover:bg-[#18181b]/30 transition-all duration-700"></div>
               </motion.div>
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Long Ride</button>
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase mx-4 cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Outstation Trip</button>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Long Ride</button>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase mx-4 cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Outstation Trip</button>
             </motion.div>
 
             <motion.div
@@ -186,7 +186,7 @@ function Services() {
               onHoverEnd={() => handleHoverEnd(3)}
               className="card-container relative w-1/2 h-[70vh] mb-10 cursor-pointer"
             >
-              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3 font-["Neue_Montreal"] text-[#2a2b3d]'>
+              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3  text-[#2a2b3d]'>
                 <span className='block w-2.5 h-2.5 bg-[#7389f4] rounded-full'></span>
                 Company Transport
               </p>
@@ -194,7 +194,7 @@ function Services() {
               <motion.h1
                 className="card-text absolute right-full translate-x-1/2 top-1/2 -translate-y-1/2 tracking-wide text-7xl w-full text-center z-20 font-['Neue_Montreal'] text-[#7389f4] font-bold overflow-hidden"
               >
-                {"Company Transport".split('').map((item, index) => (
+                {"Company Transpo".split('').map((item, index) => (
                   <motion.span
                     initial={{ y: "100%" }}
                     animate={cardsAnimation[3]}
@@ -230,9 +230,9 @@ function Services() {
                 <div className="absolute inset-0 bg-[#18181b]/40 z-10 group-hover:bg-[#18181b]/30 transition-all duration-700"></div>
               </motion.div>
 
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Work Ride</button>
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase mx-4 cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Office Cab</button>
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Employee Transport</button>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Work Ride</button>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase mx-4 cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Office Cab</button>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Employee Transport</button>
             </motion.div>
           </div>
         </div>
@@ -240,7 +240,7 @@ function Services() {
         <div className='mx-20 mb-20'>
           <div className="cards w-full flex gap-5 mt-20">
             <motion.div onHoverStart={() => handleHover(4)} onHoverEnd={() => handleHoverEnd(4)} className="card-container relative w-1/2 h-[70vh] mb-10 cursor-pointer">
-              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3 font-["Neue_Montreal"] text-[#2a2b3d]'>
+              <p className='flex gap-3 items-center text-md tracking-wide uppercase mb-3  text-[#2a2b3d]'>
                 <span className='block w-2.5 h-2.5 bg-[#7389f4] rounded-full'></span>
                 Rental Packages
               </p>
@@ -280,8 +280,8 @@ function Services() {
                 />
                 <div className="absolute inset-0 bg-[#18181b]/40 z-10 group-hover:bg-[#18181b]/30 transition-all duration-700"></div>
               </motion.div>
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Cab Rental</button>
-              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1 font-["Neue_Montreal"] uppercase mx-4 cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Hourly Ride</button>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Cab Rental</button>
+              <button className='bg-transparent border-2 my-2 border-[#7389f4] text-[#2a2b3d] rounded-full px-3.5 py-1  uppercase mx-4 cursor-pointer hover:bg-[#7389f4]/10 transition-colors'>Hourly Ride</button>
             </motion.div>
           </div>
         </div>

@@ -20,7 +20,8 @@ function Marquee() {
                             repeat: Infinity,
                             duration: 10
                         }}
-                        className='text-[18vw] font-["Barlow_Condensed"] 
+                        id= 'marquee'
+                        className='text-[18vw]
                 mx-8 uppercase font-medium tracking-[-0.015em] leading-[0.9] 
                 text-[#7389f4] flex items-center'
                     >

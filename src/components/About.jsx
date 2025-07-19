@@ -14,7 +14,7 @@ function About() {
       className='w-full h-full py-22 px-20 bg-[#7389f4] text-[#f8f8ff] rounded-tl-3xl rounded-tr-3xl'
     >
       <motion.h1 
-        className='text-[3.5vw] font-["Neue_Montreal"] leading-[4vw]'
+        className='text-[3.5vw]  leading-[4vw]'
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 0.6 }}
