@@ -295,7 +295,6 @@ function Services() {
              
               <span className="absolute w-3 h-3 bg-[#f8f8ff] rounded-full transition-all duration-400 group-hover:w-7 group-hover:h-7 group-hover:bg-[#f8f8ff]/20" />
 
-              git git
               <svg
                 className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-500 transform group-hover:scale-125"
                 viewBox="0 0 24 24"
