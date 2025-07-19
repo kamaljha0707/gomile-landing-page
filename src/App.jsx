@@ -7,6 +7,7 @@ import Services from "./components/Services.jsx"
 import Pricing from "./components/Pricing.jsx"
 import Footer from "./components/Footer.jsx"
 import LocomotiveScroll from 'locomotive-scroll';
+import '../src/App.css'
 
 
 function App() {

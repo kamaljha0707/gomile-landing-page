@@ -19,7 +19,7 @@ function Navbar() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 400 }}
             >
-                <h1 id="logo" className='flex font-["Barlow_Condensed"] items-center text-3xl font-bold leading-none  cursor-pointer tracking-widest'>
+                <h1 id="logo" className='flex  items-center text-3xl font-bold leading-none  cursor-pointer tracking-widest'>
                     GoMile
                     <span className="w-2 mx-1 h-2 bg-[#7389f4] rounded-full"></span>
                 </h1>
