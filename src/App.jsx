@@ -1,11 +1,11 @@
 import React from "react"
-import Navbar from "./Components/Navbar"
-import HeroSection from "./components/HeroSection"
-import Marquee from "./components/Marquee"
-import About from "./components/About"
-import Services from "./components/Services"
-import Pricing from "./components/Pricing"
-import Footer from "./components/Footer"
+import Navbar from "./components/Navbar.jsx"
+import HeroSection from "./components/HeroSection.jsx"
+import Marquee from "./components/Marquee.jsx"
+import About from "./components/About.jsx"
+import Services from "./components/Services.jsx"
+import Pricing from "./components/Pricing.jsx"
+import Footer from "./components/Footer.jsx"
 import LocomotiveScroll from 'locomotive-scroll';
 
 
